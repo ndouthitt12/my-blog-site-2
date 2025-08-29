@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root { color-scheme: dark; }
+html, body { background: #0b1020; }
+
+
+/* Pretty-code token tweaks (optional) */
+pre code { counter-reset: line; }
+pre [data-line]::before {
+counter-increment: line;
+content: counter(line);
+display: inline-block;
+width: 2ch;
+margin-right: 1rem;
+opacity: 0.35;
+text-align: right;
+}
