@@ -1,4 +1,4 @@
-import { allPosts } from "contentlayer/generated";
+import { allPosts } from "contentlayer2/generated";
 
 
 export async function GET() {

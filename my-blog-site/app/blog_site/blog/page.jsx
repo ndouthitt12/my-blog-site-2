@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { allPosts } from "contentlayer/generated";
+import { allPosts } from "contentlayer2/generated";
 import PostCard from "@/components/PostCard";
 
 
